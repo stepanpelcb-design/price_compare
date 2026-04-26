@@ -9,48 +9,8 @@ import {
   TextInput,
   View,
 } from 'react-native';
+import { products } from '../../data/products';
 
-const products = [
-  {
-    id: '1',
-    name: 'Mléko 1L',
-    category: 'Mléčné výrobky',
-    subcategory: 'Mléko',
-    image:
-      'https://www.madeta.cz/media/thumbs/shop/thumb_3000x3000__16103-jihoceske-mleko-trvanlive-polotucne-1-5-1_l.jpeg?v=1776092433',
-    stores: [
-      { name: 'Rohlík', price: 29 },
-      { name: 'Tesco', price: 32 },
-      { name: 'Albert', price: 31 },
-    ],
-  },
-  {
-    id: '2',
-    name: 'Banány 1kg',
-    category: 'Ovoce',
-    subcategory: 'Banány',
-    image:
-      'https://img.kupi.cz/kupi/thumbs/banany-premium-dole_box_1920_1080.jpg',
-    stores: [
-      { name: 'Rohlík', price: 39 },
-      { name: 'Tesco', price: 42 },
-      { name: 'Albert', price: 37 },
-    ],
-  },
-  {
-    id: '3',
-    name: 'Vejce 10ks',
-    category: 'Základní potraviny',
-    subcategory: 'Vejce',
-    image:
-      'https://rumunskepotraviny.cz/wp-content/uploads/2025/11/252_vejce.webp',
-    stores: [
-      { name: 'Rohlík', price: 59 },
-      { name: 'Tesco', price: 63 },
-      { name: 'Albert', price: 57 },
-    ],
-  },
-];
 
 const categories = [
   'Vše',
