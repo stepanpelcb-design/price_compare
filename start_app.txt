@@ -1,0 +1,9 @@
+<===============================================================>
+    Instructions to connect the mobile app to the code on mac.
+<===============================================================>
+
+1) Open terminal
+
+2) cd price_compare
+
+3) npx expo start
