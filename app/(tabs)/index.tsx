@@ -13,6 +13,7 @@ import { products } from '../../data/products';
 
 
 const categories = [
+
   'Vše',
   'Mléčné výrobky',
   'Pečivo',
@@ -305,7 +306,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
 
-  categoryBtnActive: { backgroundColor: '#111' },
+  categoryBtnActive: { backgroundColor: '#668E73' },
 
   categoryText: { fontSize: 12, color: '#333' },
 
